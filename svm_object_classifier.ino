@@ -19,7 +19,7 @@ Eloquent::ML::Port::RandomForest classifier;
 uint16_t prev_frame[H][W] = { 0 };
 uint16_t current_frame[H][W] = { 0 };
 uint16_t rgb_frame[H][W][3] = { 0 };
-double features[H*W*3] = { 0 };
+float features[H*W*3] = { 0 };
 
 
 bool setup_camera(framesize_t);
